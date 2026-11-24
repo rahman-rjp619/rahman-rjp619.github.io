@@ -160,8 +160,8 @@
   const el=document.getElementById('brandName');
   if(!el)return;
 
-  const name='<kr>Kurnia Rahman</kr>';
-  const typo='<kr>Kurnia Rahmna</kr>';
+  const name='Kurnia Rahman';
+  const typo='Kurnia Rahmna';
   const reduceMotion=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   el.setAttribute('aria-label',name);
 
